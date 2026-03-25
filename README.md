@@ -1,6 +1,6 @@
 # City Rides Lakehouse
 
-[![CI](https://github.com/Vishnu567456/city-rides-lakehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/Vishnu567456/city-rides-lakehouse/actions/workflows/ci.yml)
+[![CI](https://github.com/Vishnu567456/city-rides-data-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Vishnu567456/city-rides-data-platform/actions/workflows/ci.yml)
 
 A portfolio-grade, end-to-end data engineering project that simulates a ride-hailing platform and builds a lakehouse-style pipeline from raw events to analytics-ready marts. It showcases ingestion, data modeling, quality checks, and orchestration with clear documentation and reproducible runs.
 
@@ -164,8 +164,8 @@ pytest -q
 ## Docker
 Build and run the project in a container:
 ```bash
-docker build -t city-rides-lakehouse .
-docker run --rm -v "$(pwd)/data:/app/data" city-rides-lakehouse
+docker build -t city-rides-data-platform .
+docker run --rm -v "$(pwd)/data:/app/data" city-rides-data-platform
 ```
 
 ## GitHub Readiness

@@ -19,7 +19,7 @@ def execute_pipeline(**kwargs) -> dict:
     return run_pipeline(**kwargs)
 
 
-@flow(name="city-rides-lakehouse")
+@flow(name="city-rides-data-platform")
 def city_rides_flow(
     source: str = "synthetic",
     start_date: date | None = None,

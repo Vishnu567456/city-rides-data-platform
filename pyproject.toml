@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "city-rides-lakehouse"
+name = "city-rides-data-platform"
 version = "0.1.0"
 description = "End-to-end data engineering project using Python, DuckDB, dbt, Streamlit, and Prefect."
 readme = "README.md"

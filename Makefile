@@ -23,7 +23,7 @@ clean:
 	rm -rf data .pytest_cache
 
 docker-build:
-	docker build -t city-rides-lakehouse .
+	docker build -t city-rides-data-platform .
 
 docker-run:
-	docker run --rm -v "$(PWD)/data:/app/data" city-rides-lakehouse
+	docker run --rm -v "$(PWD)/data:/app/data" city-rides-data-platform
