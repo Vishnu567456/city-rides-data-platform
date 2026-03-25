@@ -78,10 +78,10 @@ For cloud deployment steps, see `docs/deploy_streamlit.md`.
 
 ## Screenshots
 Add a screenshot after running the dashboard:
-- Save as `docs/dashboard.png`
+- Save as `docs/city-rides-data-platform-dashboard.png`
 - Embed it below
 
-![Dashboard Screenshot](docs/dashboard.png)
+![Dashboard Screenshot](docs/city-rides-data-platform-dashboard.png)
 
 ## Results (Sample Queries)
 Run these in DuckDB to validate outputs:
