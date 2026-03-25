@@ -1,4 +1,4 @@
-# City Rides Lakehouse
+# City Rides Data Platform
 
 [![CI](https://github.com/Vishnu567456/city-rides-data-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Vishnu567456/city-rides-data-platform/actions/workflows/ci.yml)
 
@@ -180,7 +180,7 @@ To publish it cleanly:
 ```bash
 git init
 git add .
-git commit -m "Build City Rides Lakehouse project"
+git commit -m "Build City Rides Data Platform project"
 git remote add origin <your-github-repo-url>
 git push -u origin main
 ```

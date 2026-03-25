@@ -28,7 +28,7 @@ def env_int(name: str, default: int | None = None) -> int | None:
 
 def parse_args() -> argparse.Namespace:
     load_dotenv()
-    parser = argparse.ArgumentParser(description="Run the City Rides Lakehouse pipeline")
+    parser = argparse.ArgumentParser(description="Run the City Rides Data Platform pipeline")
     parser.add_argument(
         "--source",
         choices=["synthetic", "nyc_tlc"],

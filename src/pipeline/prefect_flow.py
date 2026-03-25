@@ -52,7 +52,7 @@ def city_rides_flow(
 
 def parse_args() -> argparse.Namespace:
     load_dotenv()
-    parser = argparse.ArgumentParser(description="Run the City Rides Lakehouse Prefect flow")
+    parser = argparse.ArgumentParser(description="Run the City Rides Data Platform Prefect flow")
     parser.add_argument(
         "--source",
         choices=["synthetic", "nyc_tlc"],

@@ -6,7 +6,7 @@ Use this checklist when turning the project into a polished GitHub portfolio rep
 ```bash
 git init
 git add .
-git commit -m "Build City Rides Lakehouse project"
+git commit -m "Build City Rides Data Platform project"
 git branch -M main
 git remote add origin <your-github-repo-url>
 git push -u origin main

@@ -1,1 +1,1 @@
-"""City Rides Lakehouse pipeline."""
+"""City Rides Data Platform pipeline."""
