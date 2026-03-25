@@ -1,0 +1,7 @@
+city_rides_lakehouse:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/warehouse.duckdb
+      schema: main

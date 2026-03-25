@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: warehouse
+    schema: main
+    tables:
+      - name: silver_trips
+        description: "Cleaned trips created by the Python pipeline"
+
+models:
+  - name: stg_trips
+    description: "Staging model with typed fields"
+    columns:
+      - name: trip_id
+        tests:
+          - not_null
+          - unique
+      - name: pickup_datetime
+        tests:
+          - not_null
+      - name: dropoff_datetime
+        tests:
+          - not_null
+      - name: ingested_at
+        tests:
+          - not_null
+      - name: source_batch_id
+        tests:
+          - not_null
+
+  - name: fct_trip_hourly
+    description: "Hourly metrics from trips"
+    columns:
+      - name: pickup_date
+        tests:
+          - not_null
+      - name: pickup_hour
+        tests:
+          - not_null

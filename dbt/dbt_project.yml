@@ -1,0 +1,17 @@
+name: city_rides_lakehouse
+version: "1.0"
+config-version: 2
+
+profile: city_rides_lakehouse
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+models:
+  city_rides_lakehouse:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
